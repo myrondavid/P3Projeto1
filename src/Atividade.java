@@ -14,6 +14,16 @@ public class Atividade {
     private Calendar dataInicio;
     private Calendar dataFim;
 
+    public Usuario getResponsavel() {
+        return responsavel;
+    }
+
+    public void setResponsavel(Usuario responsavel) {
+        this.responsavel = responsavel;
+    }
+
+    private Usuario responsavel;
+
     public int getTipo() {
         return tipo;
     }
